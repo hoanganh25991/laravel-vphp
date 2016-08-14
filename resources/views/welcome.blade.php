@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Your Application's Landing Page.
+                    <a href="/pd/create" class="btn btn-primary">Provide donation</a>
                 </div>
             </div>
         </div>
