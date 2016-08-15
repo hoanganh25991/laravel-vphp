@@ -145,10 +145,10 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <a class="btn btn-lg btn-success btn-block btn-donation" href="/pd/create"><span class="fa fa-btc"></span> <span>Provide Donation</span></a>
+                    <a class="btn btn-lg btn-success btn-block btn-donation" href="{{ url('/pd/create') }}"><span class="fa fa-btc"></span> <span>Provide Donation</span></a>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <a class="btn btn-lg btn-primary btn-block btn-donation" href="/gd/create"><span class="fa fa-download"></span> Get Donation</a>
+                    <a class="btn btn-lg btn-primary btn-block btn-donation" href="{{ url('/gd/create') }}"><span class="fa fa-download"></span> Get Donation</a>
                 </div>
             </div>
         </div>
