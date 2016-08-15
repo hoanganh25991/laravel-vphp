@@ -41,14 +41,13 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    SSFH
+                    SSFH Community
                 </a>
             </div>
-
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Home</a></li>
+                    <li class="active"><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="#">PD</a></li>
                     <li><a href="#">GD</a></li>
                     <li><a href="#">Register</a></li>
