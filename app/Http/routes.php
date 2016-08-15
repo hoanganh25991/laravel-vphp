@@ -11,11 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::group(['middleware' => 'auth'], function() {
+	Route::get('/', function () {
+	    return view('welcome');
+	});
 	Route::get('pd', 'PdController@index');
 	Route::get('pd/create', 'PdController@create');
 	Route::post('pd', 'PdController@store');
