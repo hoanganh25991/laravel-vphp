@@ -25,7 +25,7 @@ class PdController extends Controller
     	$pd = new Pd;
     	$pd->amount = $request->amount;
     	$user->pds()->save($pd);
-    	return $pd;
+    	return redirect('pd/'.$pd->id.'/matched');
     }
 
     public function show() {

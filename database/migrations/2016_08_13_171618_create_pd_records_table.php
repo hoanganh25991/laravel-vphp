@@ -14,7 +14,8 @@ class CreatePdRecordsTable extends Migration
     {
         Schema::create('pd_records', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('pd_id')->unsigned()->index();
+            $table->integer('pd_id')->unsigned();
+            $table->integer('gd_id')->unsigned();
             $table->integer('sender_id')->unsigned();
             $table->integer('receiver_id')->unsigned();
             $table->integer('amount');

@@ -1,0 +1,112 @@
+.wallet {
+	border-right: 1px solid #e0e2e1;
+	border-bottom: 1px solid #e0e2e1;
+}
+.title h3 {
+	margin:0;
+	line-height: 40px
+}
+.navbar {
+	margin-bottom: 0;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 768px) {
+	.vertical-bottom {
+		vertical-align: bottom;
+	}
+	.btn-donation {
+		height: 60px;
+	}
+	body {
+		font-size: 14px;
+	}
+	.icon {
+		text-align: center;
+	}
+	.wallet img {
+		width: auto;
+		height: 40px;
+		margin-top: 10px;
+	}
+	.wallet span {
+		display: inline-block;
+		text-align: right;
+		margin-top: 10px;
+	}
+	.wallet p {
+		text-align: center;
+	}
+	.donation-action {
+		margin-bottom: 20px;
+	}
+	.btn-donation {
+		margin-top:10px;
+	}
+	.btn {
+		border-radius: 0;
+	}
+	a.btn-donation span{
+		margin-top: 10px;
+	}
+	table tr td {
+		padding: 3px;
+	}
+	.member-type {
+		text-align: center;
+		padding: 15px 0;
+		margin-bottom: 10px;
+	}
+	.server-time {
+		padding: 10px 0;
+		margin-right: -5px;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 15px;
+	}
+	section {
+		margin: 20px 0;
+	}
+	.title {
+		padding: 10px;
+		background-color: #dafae9;
+		border-bottom: 1px solid #e0e2e1;
+	}
+	.btn-donation {
+		height: 70px;
+	}
+	.wallet {
+		line-height: 20px;
+	}
+	.wallet p {
+		margin:6.75px;
+	}
+	.wallet img {
+		width: auto;
+		height: 40px;
+		margin-top: 10px;
+	}
+	section#dashboard {
+		margin-top:0;
+	}
+	.member-type {
+		text-align: center;
+		border-radius: 3px;
+		padding: 15px 0;
+		margin-left: 5px;
+		margin-bottom: 20px;
+	}
+	.server-time {
+		padding: 15px 0;
+		margin-right: -5px;
+	}
+	.donation-action {
+		margin-bottom: 60px;
+	}
+	a.btn-donation span{
+		margin-top: 15px;
+	}
+}
