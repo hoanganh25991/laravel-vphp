@@ -13,9 +13,9 @@
 
     <!-- Styles -->
     {{-- link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> --}}
-    <link rel="stylesheet" type="text/css" href="{{ url('/css/bootstrap.min.css}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('/css/bootstrap.min.css')}}">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-    <link rel="stylesheet" type="text/css" href="{{ url('/css/style.css}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('/css/style.css')}}">
     <style>
         body {
             font-family: 'Lato';
@@ -83,21 +83,21 @@
             <div class="hidden-xs">
                 <div class="col-lg-6 col-md-3 col-sm-12 title"><h3>Dashboard</h3></div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 wallet">
-                    <img src="/images/c-wallet-icon.png" alt="">
+                    <img src="{{ url('/images/c-wallet-icon.png') }}" alt="">
                     <div class="pull-right"> 
                         <p class="text-right"><strong>C-Wallet</strong></p>
                         <p class="text-right">3000000 BTC</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 wallet">
-                    <img src="/images/r-wallet-icon.png" alt="">
-                    <div class="pull-right"> 
+                    <img src="{{ url('/images/r-wallet-icon.png') }}" alt="">
+                    <div class="pull-right">  
                         <p class="text-right"><strong>R-Wallet</strong></p>
                         <p class="text-right">50000000 BTC</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 wallet">
-                    <img src="/images/pin-icon.png" alt="">
+                    <img src="{{ url('/images/pin-icon.png') }}" alt="">
                     <div class="pull-right">
                         <p class="text-right"><strong>PIN Balance</strong></p>
                         <p class="text-right">3000</p>
@@ -111,11 +111,11 @@
                             <td colspan="6" class="text-center title"><h4>Dashboard</h4></td>
                         </tr> -->
                         <tr>
-                            <td><img src="/images/c-wallet-icon.png" alt="" height="35px"></td>
+                            <td><img src="{{ url('/images/c-wallet-icon.png') }}" alt="" height="35px"></td>
                             <td class="text-right vertical-bottom" style="border-right:1px solid #e0e2e1;"><strong>C-Wallet</strong></td>
-                            <td><img src="/images/r-wallet-icon.png" alt="" height="35px"></td>
+                            <td><img src="{{ url('/images/r-wallet-icon.png') }}" alt="" height="35px"></td>
                             <td class="text-right vertical-bottom" style="border-right:1px solid #e0e2e1;"><strong>R-Wallet</strong></td>
-                            <td><img src="/images/pin-icon.png" alt="" height="35px"></td>
+                            <td><img src="{{ url('/images/pin-icon.png') }}" alt="" height="35px"></td>
                             <td class="text-right vertical-bottom"><strong>PIN</strong></td>
                         </tr>
                         <tr>
